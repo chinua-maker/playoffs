@@ -1,0 +1,16 @@
+:root {
+  --mainDark: #232528;
+  --mainWhite: #f3f3f3;
+  --lightBlue: #009ffd;
+}
+
+.event_pages {
+  background-color: var(--mainDark);
+}
+.events_pageHeader {
+  color: white;
+  text-align: center;
+  padding: 30px;
+  text-decoration: underline rgba(255, 0, 0, 0.8);
+  margin-bottom: 50px;
+}

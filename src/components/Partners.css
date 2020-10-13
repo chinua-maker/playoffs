@@ -1,0 +1,16 @@
+.partners {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+#group-partner {
+  display: flex;
+  padding: 45px;
+  align-items: center;
+  justify-content: space-around;
+}
+.partner_header {
+  margin: 5px 5px 20px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}

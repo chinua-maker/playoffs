@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Itim&display=swap");
+
+:root {
+  --mainDark: #232528;
+  --mainWhite: #f3f3f3;
+  --lightBlue: #009ffd;
+  --mainOrange: #e8491d;
+}
+
+.event_accordion-wrapper + * {
+  margin-top: 0.5em;
+}
+.event_wrapper {
+  border-bottom: 2px solid var(--lightBlue);
+  border-top: 2px solid var(--lightBlue);
+  background-color: var(--mainWhite);
+  max-width: 100%;
+  margin: 70px auto;
+}
+.event-date {
+  color: var(--mainDark);
+  font-size: 18px;
+  font-family: "Bungee", cursive;
+}
+.event-details {
+  color: var(--mainDark);
+  font-size: 16px;
+  font-family: "Itim", cursive;
+}
+.events-pageHeader {
+  text-align: center;
+  color: var(--mainWhite);
+}
+.accordionImg_Event {
+  display: flex;
+}

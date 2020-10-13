@@ -1,0 +1,68 @@
+:root {
+  --mainDark: #232528;
+  --mainWhite: #f3f3f3;
+  --lightBlue: #009ffd;
+}
+
+.contact-area {
+  display: flex;
+  margin: 40px;
+  margin-top: 0px;
+}
+
+.contact-form-area .form-control {
+  position: relative;
+  z-index: 2;
+  height: 45px;
+  width: 100%;
+  background-color: var(--mainWhite);
+  font-size: 12px;
+  margin-bottom: 30px;
+  border-radius: 0;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-style: italic;
+  color: #ababab;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  border: none;
+}
+.contact-form-area .form-control:focus {
+  box-shadow: none;
+}
+.contact-form-area textarea.form-control {
+  height: 190px;
+}
+
+.contact_btn,
+#contact_btn {
+  background-color: var(--lightBlue);
+  border-radius: 7px;
+  border: none;
+  color: white;
+  outline: none;
+  padding: 5px;
+}
+
+.contact_bottom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact_address {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.phone_call,
+.Address {
+  margin-top: 30px;
+}
+
+.contact_icons {
+  margin: 5px;
+}
+
+#contact_btn {
+  width: 20%;
+}
