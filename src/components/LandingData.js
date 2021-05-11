@@ -1,14 +1,14 @@
-import imgs from "../svgs/svg-2.svg"
+import imgs from "../images/bannerImage.jpg"
 import imgs5 from "../svgs/svgimg5.jpg"
 import imgs3 from "../svgs/svgimg1.jpg"
-import imgs4 from "../svgs/svg-8.svg"
+import imgs4 from "../svgs/svgchess1.jpg"
 
 export const landingObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Exclusive Access',
-  headline: 'Unlimited Access to events with zero fees',
+  topLine: 'Are You Bored',
+  headline: 'Create Event in Your Location',
   description: "Hey guys!, We build this game app for user's who want a face off with an opponent within your locality, as a means of relaxation and probably BRAGGING on a whole new level, feel free to navigate our environment its all yours",
   buttonLabel: 'Get Started',
   imgStart: '',
@@ -21,7 +21,7 @@ export const landingObjTwo = {
   lightText: true,
   lightTextDesc: true,
   topLine: 'You are your security',
-  headline: 'Stay protected 24/7 anywhere anytime',
+  headline: 'Attend Created Events',
   description:
     'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
   buttonLabel: 'Learn More',
